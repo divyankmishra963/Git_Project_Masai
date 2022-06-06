@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #outerbox{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr );
+            grid-template-rows: repeat(1, 550px);
+            /* border: 1px solid red; */
+            gap: 25px;
+            padding: 25px;
+            
+        }
+        .innerbox{
+            /* border: 1px solid rgb(47, 0, 255); */
+            text-align: center;
+            padding-top: 20px; 
+            background-color: rgb(255, 255, 255); 
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            border-radius: 20px;
+            padding-bottom: 10px;
+        }
+        h2{
+         color: rgb(12, 15, 15);
+         font-family: Arial, Helvetica, sans-serif;
+         line-height: 15px;
+        }
+        p{
+            font-size: 20px;
+            color: rgb(104, 84, 84);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 10px;
+        }
+        button{
+            padding: 5px;
+            background-color: red;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 5px;
+            border-color: transparent;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        button:hover{
+           background-color: brown;
+           cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="outerbox">
+        <div class="innerbox">
+            <img src="https://m.media-amazon.com/images/I/81qcIfvMgsL._AC_UL320_.jpg" alt="">
+            <h2>Amazon Brand - Eden & Ivy</h2>
+            <p>Women T-Shirt and Short Set</p>
+            <h1>₹ 150/-</h1>
+            <button>ADD TO CART</button>
+        </div>
+        <div class="innerbox">
+            <img src="https://m.media-amazon.com/images/I/81ahmrXcWQL._AC_UL320_.jpg" alt="">
+            <h2>Style Dunes</h2>
+            <p>Women's Cotton Printed Top</p>
+            <h1>₹ 250/-</h1>
+            <button>ADD TO CART</button>
+        </div>
+    </div>
+</body>
+</html>
