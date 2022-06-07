@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #container {
+            border: 1px solid transparent;
+            /* border: none; */
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            height: 650px;
+            background-color: bisque;
+
+        }
+
+        #box {
+            /* border: 1px solid red; */
+            border-radius: 20px;
+            background-color: white;
+            width: 30%;
+            height: auto;
+            margin: auto;
+            /* text-align: center; */
+            margin-top: 80px;
+            /* margin-bottom: 20px; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+
+        h1 {
+            /* border: 1px solid brown; */
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+
+        #entrypart {
+            /* border: 1px solid blue; */
+            width: 70%;
+
+        }
+
+        #entrypart .inputbox input {
+            /* border: 1px solid pink; */
+            width: 100%;
+            padding: 10px 0px;
+            
+            font-size: 18px;
+            letter-spacing: 1px;
+            margin-bottom: 30px;
+            border: none;
+            border-bottom: 1px solid gray;
+            border-width: 2px;
+        }
+        button{
+            /* border: 1px solid red; */
+            border: none;
+            margin: auto;
+            text-align: center;
+            width: 100%;
+            font-size: 22px;
+            margin-top: 20px;
+            padding: 10px 0px;
+            color:white;
+            background-color: rgb(146, 73, 248);
+            font-weight: 540;
+        }
+        #box #lastpart {
+            /* border:1px solid brown; */
+            width: 100%;
+            display:block;
+            margin: auto;
+            margin-top: 50px;
+            /* display: flex;
+            justify-content: space-around;
+            align-items: center; */
+        }
+
+        #box #lastpart #forget1{
+            /* border: 1px solid red; */
+            font-size: 20px;
+            width: 40%;
+            margin: auto;
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            justify-content: space-evenly;
+            /* text-align: center; */
+
+        }
+        #box #lastpart #forget2{
+            /* border: 1px solid red; */
+            font-size: 20px;
+            width: 65%;
+            margin: auto;
+            margin-bottom: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            justify-content: space-evenly;
+            /* text-align: center; */
+
+        }
+        #box #lastpart #forget1>p:nth-child(2)
+        {
+            color: blue;
+        }
+        #box #lastpart #forget2>p:nth-child(2)
+        {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="box">
+            <h1>Login</h1>
+
+            <div id="entrypart">
+
+                <div class="inputbox">
+                    <input type="email" placeholder="Email">
+
+                </div>
+
+                <div class="inputbox">
+                    <input type="password" placeholder="Password">
+
+                </div>
+
+                <button>Submit</button>
+
+            </div>
+
+            <div id="lastpart">
+                <div id="forget1">
+                    <p>Forgot</p>
+                    <p>Password?</p>
+                </div>
+
+                <div id="forget2">
+                    <p>Don't have an account?</p>
+                    <p>Sign up</p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
