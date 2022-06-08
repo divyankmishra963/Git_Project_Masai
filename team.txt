@@ -1,7 +1,7 @@
                        Team Members
 
-1:- Priyanshu Kaushik
+1:- Priyanshu Kaushik    =  navbar
 2:- Piyush Kumar         =  menspage
 3:- Guru Mp              =  signupPage
 4:- Gaurav Kumar         =  loginPage  
-5:- Divyank Mishra       =  navbar
+5:- Divyank Mishra       =>  Team coordinator
